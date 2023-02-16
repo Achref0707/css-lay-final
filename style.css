@@ -1,0 +1,295 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans,Arial,sans-serif;
+}
+
+header>img{
+    width: 250px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.nav-list{
+    font-size:medium;
+    display: flex;
+   gap: 20px;
+}
+nav:first-child{
+    color: #00b39b;
+}
+nav{
+    color: rgb(164, 162, 162);
+}
+#intro{
+    margin: 2%;
+    text-align: center;
+    color: #00b39b;
+}
+.para-intro{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: start;
+    line-height: 2;
+  gap: 30px;
+}
+.para-intro>p{
+    color: black;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards-child>img{
+     padding-bottom:10%;
+}
+.cards-child>h3{
+    padding-bottom: 10%;
+}
+.cards-child>p{
+    padding-bottom: 10%;
+}
+.select-style>select{
+    margin-top: 110px;
+    background-color: transparent;
+    color:white;
+    width:fit-content;
+    border: none;
+}
+option{
+    color: black;
+}
+
+.cards-child:first-child{
+    padding: 1%;
+    background-color: #00ccb1;
+    width: 300px;
+    height: 350px;
+    color: white;
+    border-radius: 10px;
+}
+.cards-child:nth-child(2n){
+    padding: 1%;
+    background-color:#3d83df;
+    width: 300px;
+    height: 350px;
+    color: white;
+    border-radius: 10px;
+}
+.cards-child:last-child {
+    padding: 1%;
+    background-color: #1b2734;
+    width: 300px;
+    height: 350px;
+    color: white;
+    border-radius: 10px;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#logos{
+    margin: 5% 15% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00b39b;
+}
+.logo{
+    width: 70px;
+}
+.logos{
+    filter: grayscale(100%);
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+#green-section{
+    background-color: #e5faf8;
+    background-image:url("https://www.docplanner.com/img/logo.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin: 5% 0;
+    background-position: 10% 200%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.green-intro>h4{
+color: #00b39b;
+}
+.green-intro>p{
+    color: gray;
+}
+.green-intro{
+    width: 500px;
+    margin-left: 15%;
+    line-height: 3;
+}
+.cardss{
+    background-color: white;
+    color: black;
+    margin: 1%;
+    width: 200px;
+    text-align: center;
+    height: 200px;
+    border-radius: 2%;
+}
+.green-cardss{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25%;
+}
+.cardss:first-child{
+    margin-top: 7%;
+    padding: 1%;
+    margin-bottom: -13%;
+}
+.cardss:nth-child(2n) {
+    margin-top: 3%;
+    padding: 1%;
+    margin-bottom: -13%;
+}
+.cardss:nth-child(3n) {
+
+    padding: 1%;
+}
+.cardss:last-child {
+    margin-top: -5%;
+    padding: 1%;
+}
+h1{
+    color: #00b39b;
+}
+#countries{
+    text-align: center;
+    color: gray;
+}
+.card>img{
+    border-radius: 3% 3% 0 0;
+}
+.card{
+    background-color: rgb(252, 247, 247);
+    color: black;
+    width: 311px;
+    margin: 1%;
+    border-radius: 5% 5% 0 0;
+}
+.details{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background-color: #3d83df;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 2%;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #3d83df;
+        color: white;
+        height: fit-content;
+        width: fit-content;
+        padding: 1%;
+        border: none;
+        border-radius: 5px;
+}
+.cards-container{
+    width: 80%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 0% 10%;
+}
+#pg{
+    width: 50%;
+}
+.join-us{
+    margin-top:  10%;
+    margin-bottom: 10%;
+}
+.jpon-us>h1{padding-bottom:10%;}
+.join-us>button{
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-left: 20%;
+    font-size: small;
+}
+.green-cardss>:hover{
+    box-shadow: -1px 8px 10px -8px rgba(255, 255, 255, 0.96);
+    -webkit-box-shadow: -1px 8px 10px -8px rgba(255, 255, 255, 0.96);
+    -moz-box-shadow: -1px 8px 10px -8px rgba(255, 255, 255, 0.96);
+}
+#centr>p{
+   margin:0% 15%;
+}
+@media screen and (max-width: 600px) {
+    header{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+    }
+    header>img{
+            margin:0% 20%;
+    }
+    header>.nav-list{
+           margin: 0% 20%;
+    }
+#intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+#intro>.para-intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.para-intro>p{
+    padding: 5%;
+}
+#cards{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#green-section{
+    height: fit-content;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width:min-content;
+    background-image:url("https://www.docplanner.com/img/logo.png");
+    background-size: 300px ;
+    background-position: 50% 110%;
+
+}
+.cardss{
+   margin: 5% !important;
+}
+
+}
